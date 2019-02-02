@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="containerTime">
+      <div class="top">
+        <div class="heading">
+          Time Converter
+        </div>
+        <div class="unitOne">
+          <input type="text" class="largeInput" maxlength="10" id="inputTime" value="" placeholder="type here..." />
+        </div>
+        <div class="unitOneDesc">
+          <select id="fromTime">
+              <option value="seconds">Seconds</option>
+              <option value="minutes">Minutes</option>
+              <option value="hours">Hours</option>
+          </select>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="unitTwo">
+            <input type="text" class="largeInput" id="outputTime" value="" placeholder="" readonly />
+          </div>
+          <div class="unitTwoDesc">
+            <select id="toTime">
+              <option value="seconds">Seconds</option>
+              <option value="minutes">Minutes</option>
+              <option value="hours">Hours</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
