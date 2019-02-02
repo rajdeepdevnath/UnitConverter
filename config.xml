@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.rajdeep.unitconverter"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Unit Converter</name>
+
+  <description>
+      Unit Converter
+  </description>
+
+  <author href="https://rajdeepdevnath.github.io/UnitConverter/">
+      Rajdeep Dev Nath
+  </author>
+
+  <icon src="icon.png" width="313" height="313" />
+
+</widget>
